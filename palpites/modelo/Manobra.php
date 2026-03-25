@@ -1,16 +1,18 @@
 <?php
 
-class Manobra {
+class Manobra
+{
     private $nome;
     private $midia;
     private $dica;
 
-    public function __construct($nome, $midia, $dica) {
+    public function __construct($nome, $midia, $dica)
+    {
         $this->nome = $nome;
         $this->midia = $midia;
         $this->dica = $dica;
     }
-  
+
 
     /**
      * Get the value of nome
@@ -65,13 +67,4 @@ class Manobra {
 
         return $this;
     }
-
 }
-
-
-
-
-
-
-
-
