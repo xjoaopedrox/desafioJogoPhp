@@ -50,7 +50,19 @@ class Pokemon
         echo "Parabens {$this->nome} subiu para o nivel {$this->nivel}\n";
         echo "Vida atual: {$this->vida}\n  Forca atual: {$this->forca}";
     }
+
+    public function mostrarDados() 
+    {
+        echo "Nome: {$this->nome}\n";
+        echo "Tipo: {$this->tipo}\n";
+        echo "Nível: {$this->nivel}\n";
+        echo "Experiência: {$this->experiencia}\n";
+        echo "Vida: {$this->vida}\n";
+        echo "Força: {$this->forca}\n\n";
+    }
 }
+
+
 
 
 
