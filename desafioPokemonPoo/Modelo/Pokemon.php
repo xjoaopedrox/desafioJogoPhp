@@ -37,7 +37,7 @@ class Pokemon
 
         if ($this->experiencia >= 100) {
             $this->subirDeNivel();
-            $this->experiencia = 0; 
+            $this->experiencia -= 100; 
         }
     }
 
